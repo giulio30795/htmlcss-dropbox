@@ -18,6 +18,12 @@
     text-decoration: none;
 }
 
+.button-test{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
 .float-left{
     float: left;
     width: 50%;
@@ -53,6 +59,11 @@ h1{
 
 h2{
     font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+margin-bottom: 15px;
 }
 
 
@@ -115,7 +126,16 @@ header{
 input{
     margin-top: 35px;
 }
+.content{
+    padding: 20px;
+    font-size: 13px;
 
+}
+.fa-user, 
+.fa-folder,
+.fa-pencil-alt{
+    margin-right: 5px;
+}
 .col-1 {
     border: 1px solid grey;
 
@@ -123,10 +143,27 @@ input{
 .title{
     text-align: center;
     border-bottom: 1px solid grey;
+    padding: 5px 0 5px;
 }
 .month{
     color: #72818D;
+
 }
 .content ul li {
     list-style: none;
+
+}
+
+.content .button-test a{
+    color: white;
+    padding: 5px 15px 5px;
+
+}
+.content a{
+    color: #2575FF;
+    display: inline-block;
+}
+hr{
+    width: 25%;
+    margin: 25px 0 25px;
 }
