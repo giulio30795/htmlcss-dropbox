@@ -13,8 +13,9 @@
 }
 .button-small{
     color: white;
-    background-color: blue;
-    padding: 10px 15px 10px;
+    background-color:#0061FF;
+    padding: 8px 10px 8px;
+    text-decoration: none;
 }
 
 .float-left{
@@ -25,12 +26,34 @@
 .float-right{
     float: right;
     width: 50%;
+}
 
+.float-left40{
+    float: left;
+    width: 40%;
+}
+
+.float-right60{
+    float: right;
+    width: 60%;
+}
+
+.container-85{
+    width: 85%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 60px;
+}
+p{
+    margin: 30px 0 30px
 }
 /* Header */
 
 header{
     width: 100%;
+    font-size: 14px;
 }
 
 .header{
@@ -49,8 +72,8 @@ header{
 
 .header ul li .button-small{
     color: white;
-    background-color: blue;
-    padding: 10px 15px 10px;
+    background-color: #0061FF;
+    padding: 5px 15px 5px;
 }
 
 .header ul li a img{
@@ -61,3 +84,18 @@ header{
     text-align: right;
 }
 
+.jumbo{
+    width: 100%;
+    background-color:#B4D0E7;
+    padding: 20px 0 20px;
+}
+
+.jumbo .container-85 .float-right60 img{
+    max-width: 100%;
+    position: relative;
+    top: 100px;
+}
+.fa-arrow-down
+{
+    font-size: 40px;
+}
