@@ -50,15 +50,20 @@
     width: 60%;
 }
 
-.float-left80{
+.float-left75{
     float: left;
-    width: 80%;
+    width: 75%;
+}
+
+.float-left25{
+    float: left;
+    width: 25%;
+    text-align: right;
 }
 
 .float-left20{
     float: left;
     width: 20%;
-    text-align: right;
 }
 
 .float-right60{
@@ -86,6 +91,11 @@
     margin: 0 auto;
 }
 
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .container-70{
     width: 70%;
     margin: 0 auto 80px;
@@ -102,6 +112,11 @@ h2{
 
 h3{
     font-size: 25px;
+    margin-bottom: 15px;
+}
+
+h4{
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
@@ -396,4 +411,40 @@ div.clearfix.container-70 h2.float-left{
 .first-question{
     border-top: 1px solid lightgray;
     margin-top: 40px;
+}
+
+/* Footer */
+
+.footer-list{
+    padding-bottom: 50px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 60px ;
+    font-size: 12px;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 5px 0px 5px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer hr{
+    color: white;
+    width: 10%;
+    filter: opacity(0.8);
+}
+.language{
+    font-size: 10px;
+    filter: opacity(0.6);
+}
+.fa-caret-up{
+    margin-left: 3px;
 }
