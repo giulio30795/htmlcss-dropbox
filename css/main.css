@@ -190,8 +190,8 @@ input{
 }
 
 .content{
-    padding: 20px 0 20px 20px;
-    font-size: 13px;
+    padding: 25px;
+    font-size: 14px;
 }
 
 .fa-user, 
@@ -203,6 +203,7 @@ input{
 
 .fa-check{
     color: #0164FF;
+    font-size: 20px;
 }
 
 .col-1,
@@ -211,6 +212,7 @@ input{
     border: 1px solid lightgray;
     margin-top: 30px;
     max-width: 31%;
+    min-height: 900px;
 }
 
 .col-2{
@@ -223,7 +225,6 @@ input{
     border-bottom: 1px solid lightgray;
     padding: 5px 0 5px;
 }
-
 
 .month{
     color: #72818D;
@@ -242,7 +243,7 @@ input{
 }
 
 hr{
-    width: 25%;
+    width: 15%;
     margin: 25px 0 25px;
 }
 
@@ -285,6 +286,11 @@ div.clearfix img{
 .mid-column{
     margin-left: 46px;
     margin-right: 46px;
+    padding-bottom: 25px;
+}
+
+.padding-col{
+    padding-bottom: 25px;
 }
 
 /* 500k team */
@@ -380,7 +386,7 @@ div.float-left40.img-container.middle-container hr{
     background-color:#B4D0E7;
     width: 100%;
     height: 300px;
-    padding: 100px 0 100px;
+    padding: 100px 25px 100px 25px;
     line-height: 50px;
     margin-bottom: 100px;
 }
@@ -438,7 +444,7 @@ footer ul li a{
 
 footer hr{
     color: white;
-    width: 10%;
+    width: 5%;
     filter: opacity(0.8);
 }
 .language{
