@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
     }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Commons */
 .clearfix{
     content: '';
@@ -133,25 +137,35 @@ p{
 header{
     width: 100%;
     font-size: 14px;
+    height: 70px;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
 }
 
 .header{
-    padding: 20px;
+    padding: 0px 20px 0px;
+    line-height: 70px;
+    height: 70px;
 }
 
 .header ul li {
     list-style: none;
     display: inline-block;
+    line-height: 70px;
 }
 
 .header ul li a{
-    padding: 10px 15px 10px;
-    line-height: 30px;
+    padding: 0px 15px 0px;
+    line-height: 70px;
+    height: 70px;
+
     text-decoration: none;
     color: black;
 }
 
-.header ul li .button-small{
+
+.header ul li a.button-small{
     color: white;
     background-color: #0061FF;
     padding: 5px 15px 5px;
@@ -169,7 +183,7 @@ header{
 .jumbo{
     width: 100%;
     background-color:#B4D0E7;
-    padding: 20px 0 20px;
+    padding: 150px 0 20px;
     margin-bottom: 100px;
 }
 
@@ -181,6 +195,11 @@ header{
 
 .fa-arrow-down{
     font-size: 40px;
+}
+
+#go-price{
+    text-decoration: none;
+    color: black;
 }
 
 /* Price */
@@ -197,7 +216,8 @@ input{
 .fa-user, 
 .fa-folder,
 .fa-pencil-alt,
-.fa-check{
+.fa-check,
+.fa-user-plus{
     margin-right: 5px;
 }
 
@@ -228,6 +248,8 @@ input{
 
 .month{
     color: #72818D;
+    margin-top: 15px
+    
 }
 .content ul li {
     list-style: none;
@@ -450,6 +472,7 @@ footer hr{
 .language{
     font-size: 10px;
     filter: opacity(0.6);
+    margin-bottom: 25px;
 }
 .fa-caret-up{
     margin-left: 3px;
