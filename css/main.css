@@ -148,7 +148,9 @@ header{
     line-height: 70px;
     height: 70px;
 }
-
+.header ul{
+    display: inline-block;
+}
 .header ul li {
     list-style: none;
     display: inline-block;
@@ -159,19 +161,20 @@ header{
     padding: 0px 15px 0px;
     line-height: 70px;
     height: 70px;
+    display: inline;
 
     text-decoration: none;
     color: black;
 }
 
 
-.header ul li a.button-small{
+.header a.button-small{
     color: white;
     background-color: #0061FF;
     padding: 5px 15px 5px;
 }
 
-.header ul li a img{
+.header a img{
     vertical-align: middle;
 }
 
@@ -179,6 +182,9 @@ header{
     text-align: right;
 }
 
+header li:hover{
+    border-bottom: 2px solid black;
+}
 /* Jumbo */
 .jumbo{
     width: 100%;
