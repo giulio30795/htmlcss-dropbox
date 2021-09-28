@@ -148,25 +148,25 @@ header{
     line-height: 70px;
     height: 70px;
 }
+
 .header ul{
     display: inline-block;
 }
+
 .header ul li {
+    margin: 0px 15px 0px;
     list-style: none;
     display: inline-block;
     line-height: 70px;
 }
 
 .header ul li a{
-    padding: 0px 15px 0px;
     line-height: 70px;
     height: 70px;
     display: inline;
-
     text-decoration: none;
     color: black;
 }
-
 
 .header a.button-small{
     color: white;
@@ -185,7 +185,9 @@ header{
 header li:hover{
     border-bottom: 2px solid black;
 }
+
 /* Jumbo */
+
 .jumbo{
     width: 100%;
     background-color:#B4D0E7;
@@ -255,8 +257,8 @@ input{
 .month{
     color: #72818D;
     margin-top: 15px
-    
 }
+
 .content ul li {
     list-style: none;
 }
@@ -265,6 +267,7 @@ input{
     color: white;
     padding: 5px 30px 5px;
 }
+
 .content a{
     color: #2575FF;
     display: inline-block;
@@ -289,6 +292,7 @@ hr{
 }
 
 /* Entra in contatto */
+
 .partner-button{
     border: 1px solid black;
     padding: 5px 10px 5px;
@@ -320,8 +324,6 @@ div.clearfix img{
 .padding-col{
     padding-bottom: 25px;
 }
-
-/* 500k team */
 
 /* Logo Section */
 
@@ -410,6 +412,7 @@ div.float-left40.img-container.middle-container hr{
 }
 
 /* CTA Section */
+
 .cta{
     background-color:#B4D0E7;
     width: 100%;
@@ -452,6 +455,7 @@ div.clearfix.container-70 h2.float-left{
 .footer-list{
     padding-bottom: 50px;
 }
+
 footer{
     background-color: black;
     color: white;
@@ -467,7 +471,6 @@ footer ul li {
 footer ul li a{
     text-decoration: none;
     color: white;
-
 }
 
 footer hr{
@@ -475,11 +478,13 @@ footer hr{
     width: 5%;
     filter: opacity(0.8);
 }
+
 .language{
     font-size: 10px;
     filter: opacity(0.6);
     margin-bottom: 25px;
 }
+
 .fa-caret-up{
     margin-left: 3px;
 }
