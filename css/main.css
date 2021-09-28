@@ -182,9 +182,28 @@ header{
     text-align: right;
 }
 
-header li:hover{
+header div.header li:hover{
     border-bottom: 2px solid black;
 }
+
+.list-menu{
+    position: absolute;
+    top:50px;
+    left: 76%;
+    z-index: 1;
+    display: none;
+    
+}
+.list-menu li {
+    list-style: none;
+    background-color: white;
+    padding: 20px;
+}
+
+ul li#supporto:hover ul.list-menu{
+    display: block;
+}
+
 
 /* Jumbo */
 
